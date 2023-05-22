@@ -35,7 +35,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Visual
 
-![weather dashboard](./Images/)
+![]()
 
 
 ## Links
