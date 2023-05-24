@@ -64,26 +64,26 @@ const questions = [
       name: 'license',
       message: 'What kind of license should your project have?',
       choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
-      when: ({ contents }) => {
-        if (contents.indexOf('License') > -1) {
-          return true;
-        }else{
-          return false;
-        }
-      }
+    //   when: ({ contents }) => {
+    //     if (contents.indexOf('License') > -1) {
+    //       return true;
+    //     }else{
+    //       return false;
+    //     }
+    //   }
     },
     {
       type: 'input',
       name: 'installation',
       message: 'What command should be run to install dependencies?',
       default: 'npm i',
-      when: ({ contents }) => {
-        if (contents.indexOf('Installation') > -1) {
-          return true;
-        }else{
-          return false;
-        }
-      }
+    //   when: ({ contents }) => {
+    //     if (contents.indexOf('Installation') > -1) {
+    //       return true;
+    //     }else{
+    //       return false;
+    //     }
+    //   }
     },
     {
       type: 'input',
@@ -107,13 +107,13 @@ const questions = [
       type: 'input',
       name: 'contributing',
       message: 'What does the user need to know about contributing to the repo?',
-      when: ({ contents }) => {
-        if (contents.indexOf('Contributing') > -1) {
-          return true;
-        }else{
-          return false;
-        }
-      }
+    //   when: ({ contents }) => {
+    //     if (contents.indexOf('Contributing') > -1) {
+    //       return true;
+    //     }else{
+    //       return false;
+    //     }
+    //   }
     },
   ];
   
