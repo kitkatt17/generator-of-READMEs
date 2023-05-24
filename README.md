@@ -44,7 +44,7 @@ npm inquirer
 
 Walkthrough Video Link:
 
-![]()
+[Sreencastify Walkthrough Video](https://drive.google.com/file/d/12LdZk3Joz9BhtFj0yJ6Rx47AutsChaKS/view)
 
 
 ## Links
