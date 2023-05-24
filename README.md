@@ -4,7 +4,7 @@ Professional README Generator.
 
 ## Description
 
-Is a README generator. Will display a professional README for any type of project you will be creating. Will link up to any Github profile. 
+Is a README generator. Will display a professional README for any type of project you will be creating. Will link up to any Github profile. Content is based on responses to a series of user prompts that will then be captured using the Npm Inquirer package. 
 
 
 ## User Story 
@@ -33,7 +33,16 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
 
-## Visual
+## Installation
+
+To use this application install:
+```
+npm inquirer
+```
+
+## Tutorial
+
+Walkthrough Video Link:
 
 ![]()
 
